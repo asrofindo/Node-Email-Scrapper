@@ -11,6 +11,7 @@ Here is how to use it.
 
 Now you can start scrapping your emails.
 Open the app.js and configure your keyword and Google pages number you want to scrap.
+Create a directory/folder to extract your email, the name is "email_list" directory
 
 ```sh
 var searchQuery = 'keyword "@gmail.com" "@live.com" "@yahoo.com" "@hotmail.com"';
@@ -20,6 +21,10 @@ Finally run the NodeJs app to start the scrapping.
 ```sh
     $ node app
 ```
+
+#Controllers
+You can add email domain to catch in this file "\controllers\config.js", example: adding "@yahoo.com.sg"
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
